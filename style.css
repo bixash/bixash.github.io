@@ -135,5 +135,49 @@ img {
     border-radius: 0.3em;
     margin-top: 2em;
     font-size: var(--normal-font-size);
+
+
 }
 
+.contact-sec a{
+    background-color: var(--theme-color);
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-weight: bold;
+    color: var(--sec-color);
+    box-shadow: 5px 5px 4px var(--sec-color);
+}
+.footer-sec {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+}
+
+.footer-sec .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer-sec h2 {
+    text-decoration: none;
+    margin-bottom: none;
+}
+
+.container .contact-btn{
+    margin: 0;
+    color: var(--sec-color);
+    font-size: 1.5em;
+    padding: 0em 1em ;
+
+}
+
+footer {
+    margin: 0;
+    color: var(--sec-color);
+}
