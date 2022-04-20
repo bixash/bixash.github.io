@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Bixash.com</title>
+    <title>bikashrestha.com</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js"></script>
+
 </head>
 <body>
 
@@ -20,9 +23,15 @@
         <div class="logo">
             <a href="#">Bixash</a>
         </div>
+    
+        <i id="toggleMenu" class="uil uil-bars"></i>
+
+        
 
         <div class="nav-option">
+
             <ul>
+                <i id="closeMenu" class="uil uil-times"></i>
                 <li class="nav-btns"><a href="#">Home</a></li>
                 <li class="nav-btns"><a href="#">Work</a></li>
                 <li class="nav-btns"><a href="#">Design</a></li>
@@ -40,19 +49,19 @@
             <a  href="#"
                 target="_blank"
                 class ="brand-logo">
-                <i class="fab fa-behance"></i>
+                <i class="uil uil-dribbble"></i>
             </a>
 
             <a href="https://github.com/Notorious-man"
                 target="_blank"
                 class="brand-logo">
-                <i class="fab fa-github"></i>
+                <i class="uil uil-github-alt"></i>
             </a>
 
             <a href="https://www.linkedin.com/in/notorious-man/"
                 target="_blank"
                 class="brand-logo">
-                <i class="fab fa-linkedin"></i>
+                <i class="uil uil-linkedin-alt"></i>
             </a>
 
         </div>
@@ -60,10 +69,13 @@
 
         <div class="container">
             <div class="text-sec">
-                <h1>Hi, I am <span>Bixash</span></h1>
-                    <h3>Frontend Developer</h3>
-                <p> I like to learn and explore new things and love being myself. They think  I'm crazy but i'm chilled guy.</p>
-                <a  class="contact-btn" ref="#"><span>Contact</span></a>
+                <h1 class="title" >Hi, I am <span>Bixash</span></h1>
+                
+                <h3 class="sub-title">Frontend Developer</h3>
+
+                <p class="sub-title"> They think  I'm crazy but i'm chilled and cool guy, btw you can't see me.</p>
+
+                <a  class="contact-btn" ref="#"><span>Hire Me <i class="uil uil-message"></i></span></a>
             </div>
             <img  class="hero-img" src="./images/Cool Dude.jpg" alt="Profile">
 
@@ -72,18 +84,29 @@
     </div>
 
     <section class="about-section">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet 
+
+        <h2 class="title">About</h2>
+
+        <h4 class ="sub-title"> My Introduction</h4>
+
+        <p>
+            Lorem ipsum dolor sit amet 
             consectetur adipisicing elit. 
             Culpa cum et illo deleniti sit unde, 
             quam illum quaerat deserunt doloribus. 
             Asperiores explicabo nihil culpa ipsam perspiciatis incidunt dolorum minima? Laudantium obcaecati est doloribus doloremque.
 
         </p>
+        
     </section>
 
     <section class="skill-section">
-        <h2>My Skills</h2>
+
+        <h2 class ="title">Skills</h2>
+        <h4 class ="sub-title">My techninal skill </h4>
+
+
+
         <div class="skill-container">
             <div class="skill-name">
                 <div class="skill-wrapper">
@@ -125,7 +148,7 @@
     </section>
                         
     <section class="work-section">
-        <h2>Works</h2>
+        <h2 class="title">Works</h2>
         
         <ul class="work-sec">
             <li>
@@ -145,8 +168,10 @@
     </section>
             
     <section class="contact-section">
+
         <div class="container">
-            <h2>Contact</h2>
+
+            <h2 class="title">Contact</h2>
 
             <input type="text" placeholder="Name" class="name" >
 
@@ -156,7 +181,7 @@
                 name="" id="text-area" cols="30" rows="10"
             ></textarea>
 
-            <a class="send-btn" href="#">Send</a>
+            <a class="send-btn" href="#">Send <i class="uil uil-message"></i></a>
 
         </div>
     </section>
@@ -165,7 +190,7 @@
 
     <footer>
 
-        <h2>Quagmire</h2>
+        <h2 class="title">Bixash</h2>
 
         <div class="brand-container">
 
@@ -189,7 +214,7 @@
         </div>
 
         <div class="copyright">
-            <p>&copy; 2022 Quagmire. All right reserved.</p>
+            <p>&copy; 2022 Bixash. All right reserved.</p>
         </div>
     </footer>
     
