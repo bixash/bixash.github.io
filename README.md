@@ -1,2 +1,2 @@
 # Website
- Personal website will be here shortly..
+ My personal website will be here shortly..
